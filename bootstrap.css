@@ -1,0 +1,438 @@
+
+ .hero {
+      background: url('https://jaseel-ahamed.github.io/webstudents/design5.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+      margin-right: 15px;
+    }
+
+.img{
+    background-image: url(top-view-grilled-meat-with-potatoes-grilled-vegetables-with-sauces.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    text-align: center;
+}
+.img h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+.box{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.btn{
+    color: white;
+    background-color:#ae8648;
+    font-weight: bold;
+}
+.blur {
+    background-image: url(top-view-grilled-meat-with-potatoes-grilled-vegetables-with-sauces.jpg); 
+    background-position: center;
+}
+.div{
+    background-color: rgba(0, 0, 0, 0.852);
+}
+.line1{
+    background-color: rgba(255, 255, 255, 0.292);
+    width: 30%;
+    height: 2px;
+}
+.line-inbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+}
+
+.line2{
+    background-color: rgba(255, 255, 255, 0.292);;
+    width: 50%;
+    height: 2px;
+}
+.line-inbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+    height: 300px;
+}
+@media (max-width:992px){
+    .line-inbox1,.line-inbox2{
+   
+   align-items: center !important;
+}
+}
+.inbox{
+    font-style: italic;
+    font-family: Playfair Display, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 300px;
+    
+}
+.img1{
+    background-image: url(restaurant-interior_1127-3392.avif);
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+}
+.head1{
+    text-align: center;
+    color: white;
+    opacity: 70%;
+    font-weight: bold;
+    font-size: 100px;
+
+    
+    
+}
+.line{
+    background-color: white;
+    height: 2px;
+    width: 60%;
+    margin: auto;
+    opacity: 70%;
+}
+.head2{
+    text-align: center;
+    color: white;
+    opacity: 70%;
+    padding: 30px;
+}
+.btn1{
+    color: white;
+    font-weight: bold;
+    background-color: #ae8648;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    opacity: 70%;
+}
+.box1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.img2{
+    background-image: url(homemade-smoked-barbecue-beef-brisket-meat-wooden-background-top-view_89816-27269.avif);
+    background-size: cover;
+    opacity: 90%;
+    background-color: rgba(255, 255, 255, 0.471);
+    height: 600px;
+    background-position: center;
+}
+
+.img2 h1{
+    
+    font-size: 100px;
+}
+.box2{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.btn2{
+    color: white;
+    background-color:#ae8648;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+.blur1{
+    background-image: url(top-view-grilled-meat-with-potatoes-grilled-vegetables-with-sauces.jpg); 
+    background-position: center;
+}
+.div{
+    background-color: rgba(248, 247, 247, 0.852);
+}
+.line1{
+    background-color:  rgba(249, 186, 61, 0.292);
+    width: 30%;
+    height: 2px;
+}
+.line-inbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+.line2{
+    background-color: rgba(249, 186, 61, 0.292);
+    width: 50%;
+    height: 2px;
+}
+.line-inbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+    height: 300px;
+}
+.inbox{
+    font-style: italic;
+    font-family: Playfair Display, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    height: 300px;
+    
+}
+.img3{
+    background-image: url(still-life-with-various-spices.jpg);
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+}
+.div1{background-color: rgba(0, 0, 0, 0.507); 
+}
+.head3{
+    text-align: center;
+    color: white;
+    opacity: 70%;
+    font-weight: bold;
+    font-size: 100px;
+
+    
+    
+}
+.line{
+    background-color: white;
+    height: 2px;
+    width: 85%;
+    margin: auto;
+}
+.head4{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    opacity: 70%;
+}
+.btn3{
+    color: white;
+    font-weight: bold;
+    background-color: #cf9641;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    opacity: 70%;
+}
+.box3{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.img4{
+    background-image: url(smiling-young-couple-toasting-beer-glasses-kitchen_23-2147917868.avif);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.471);
+    height: 600px;
+    background-position: top;
+    padding: 150px 20px;
+}
+
+.img4 h1{
+    
+    font-size: 100px;
+}
+.box4{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.btn4{
+    color: white;
+    background-color:#ae8648;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+.blur2{
+    background-image: url(smiling-young-couple-toasting-beer-glasses-kitchen_23-2147917868.avif); 
+    background-position: center;
+}
+.div{
+    background-color: rgba(242, 163, 53, 0.852);
+}
+.line1{
+    background-color:  white;
+    width: 30%;
+    height: 2px;
+}
+.line-inbox3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+.line2{
+    background-color: white;
+    width: 50%;
+    height: 2px;
+}
+.line-inbox4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+    height: 300px;
+}
+.inbox{
+    font-style: italic;
+    font-family: Playfair Display, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 300px;
+    
+}
+@media(max-width:992px){
+   .line-inbox3,.line-inbox4{
+    align-items: center !important;
+   }
+}
+.img5{
+    background-image: url(top-view-woman-cuts-red-bell-pepper-cutting-board-with-parsley-tomatoes-basket-eggplants-wooden-background_141793-52119.avif);
+    background-size: cover;
+    min-height: 450px;
+    background-position: center;
+}
+.div2{background-color: rgba(0, 0, 0, 0.507);
+    min-height: 450px; 
+}
+.head5{
+    text-align: center;
+    padding: top;
+    color: white;
+    opacity: 70%;
+    font-weight: bold;
+    font-size: 100px;
+}
+.line{
+    background-color: white;
+    height: 2px;
+    width: 75%;
+    margin: auto;
+}
+.head6{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    opacity: 70%;
+}
+.btn5{
+    color: white;
+    font-weight: bold;
+    background-color: #cf9641;
+    width: 150px;
+    height: 40px;
+    border: none;
+    opacity: 70%;
+}
+.box5{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.gray{
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    gap: 15px;
+
+}
+.box6{
+    background-image: url(river.webp);
+    /* width: 300px; */
+    height: 150px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+.box7 h3{
+    color: white;
+}
+.short{
+    color: gray;
+}
+
+.box9{
+    color: white;
+}
+.btn6{
+    background-color: #cf9641;
+    color: white;
+    border: none;
+}
+.bgcolor{
+    background-color: black;
+    padding: 15px;
+}
+.box8{
+    color: white;
+}
+
+
+.box11{   
+    text-align: center;
+}
+
+ul.mylist{
+    list-style-image: url(icons8-greater-than-15.png);
+}
+@media(max-width:992px){
+   .box10{
+    text-align: center !important;
+   }
+   h1{
+    font-size: 40px !important;
+   }
+}
+
+
